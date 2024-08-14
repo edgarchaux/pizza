@@ -9,12 +9,12 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient{
+    background: linear-gradient(
         90deg,
         rgba(83,14,115,1)0%,
         rgba(105,33,250,1)51%,
         rgba(80,13,114,1)100%
-    }; 
+    ); 
 }
 .container{
     weight: 120px;
