@@ -17,6 +17,24 @@ body{
     ); 
 }
 .container{
-    weight: 120px;
-
+    max-width: 120px;
+    margin:0 auto;    
+}
+.header{
+    display:none;
+    min-height: 75vh;
+    align-items: center;
+}
+.menu{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+.menu .logo{
+    
 }
