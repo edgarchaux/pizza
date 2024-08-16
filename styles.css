@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+/*font-family: "Permanent Marker", cursive;*/
 *{
     margin: 0;
     padding: 0;
@@ -7,34 +8,10 @@
     text-decoration: none;
     list-style: none;
 }
-body{
+body {
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(
-        90deg,
-        rgba(83,14,115,1)0%,
-        rgba(105,33,250,1)51%,
-        rgba(80,13,114,1)100%
-    ); 
-}
-.container{
-    max-width: 120px;
-    margin:0 auto;    
-}
-.header{
-    display:none;
-    min-height: 75vh;
-    align-items: center;
-}
-.menu{
-    position: absolute;
-    top:0;
-    left:0;
-    right:0;
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 1000;
-}
-.menu .logo{
-    
+        90deg;
+        rgba(83,14,115,1)0%/*no está funcionando bisect*/
+    ) 
 }
